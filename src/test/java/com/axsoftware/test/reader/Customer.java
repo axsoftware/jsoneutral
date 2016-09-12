@@ -1,4 +1,4 @@
-package com.fileJson.test.reader;
+package com.axsoftware.test.reader;
 
 public class Customer {
 

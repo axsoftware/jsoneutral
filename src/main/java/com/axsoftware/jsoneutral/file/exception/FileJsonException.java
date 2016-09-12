@@ -1,4 +1,4 @@
-package com.jsoneutral.file.exception;
+package com.axsoftware.jsoneutral.file.exception;
 
 public class FileJsonException extends RuntimeException {
 

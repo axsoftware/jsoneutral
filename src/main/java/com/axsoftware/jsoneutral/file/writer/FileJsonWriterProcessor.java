@@ -1,7 +1,7 @@
 
-package com.jsoneutral.file.writer;
+package com.axsoftware.jsoneutral.file.writer;
 
-import com.jsoneutral.file.JsonMetadata;
+import com.axsoftware.jsoneutral.file.JsonMetadata;
 
 public interface FileJsonWriterProcessor {
 

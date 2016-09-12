@@ -1,8 +1,8 @@
-package com.fileJson.test.write;
+package com.axsoftware.test.write;
 
-import static com.jsoneutral.file.util.StringDataUtil.formatDate;
-import static com.jsoneutral.file.util.StringDataUtil.formatDecimal;
-import static com.jsoneutral.file.util.StringDataUtil.leftPad;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.formatDate;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.formatDecimal;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.leftPad;
 
 import java.io.File;
 import java.math.BigDecimal;
@@ -14,8 +14,8 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.jsoneutral.file.writer.FileJsonWriter;
-import com.jsoneutral.file.writer.FileJsonWriterImpl;
+import com.axsoftware.jsoneutral.file.writer.FileJsonWriter;
+import com.axsoftware.jsoneutral.file.writer.FileJsonWriterImpl;
 
 public class CNAB400Test {
 

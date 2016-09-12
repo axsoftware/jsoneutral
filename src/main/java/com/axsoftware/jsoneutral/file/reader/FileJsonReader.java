@@ -1,4 +1,4 @@
-package com.jsoneutral.file.reader;
+package com.axsoftware.jsoneutral.file.reader;
 
 import java.io.File;
 

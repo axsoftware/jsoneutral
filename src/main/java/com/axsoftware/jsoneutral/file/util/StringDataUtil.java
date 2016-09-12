@@ -1,4 +1,4 @@
-package com.jsoneutral.file.util;
+package com.axsoftware.jsoneutral.file.util;
 
 import java.math.BigDecimal;
 import java.text.Normalizer;

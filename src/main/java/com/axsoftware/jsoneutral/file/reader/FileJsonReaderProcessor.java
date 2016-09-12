@@ -1,8 +1,8 @@
-package com.jsoneutral.file.reader;
+package com.axsoftware.jsoneutral.file.reader;
 
 import java.io.IOException;
 
-import com.jsoneutral.file.JsonTextFile;
+import com.axsoftware.jsoneutral.file.JsonTextFile;
 
 public interface FileJsonReaderProcessor {
 

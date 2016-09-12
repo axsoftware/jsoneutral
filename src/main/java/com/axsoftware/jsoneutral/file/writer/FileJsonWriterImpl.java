@@ -1,10 +1,10 @@
 
-package com.jsoneutral.file.writer;
+package com.axsoftware.jsoneutral.file.writer;
 
-import static com.jsoneutral.file.util.StringDataUtil.formatDate;
-import static com.jsoneutral.file.util.StringDataUtil.leftPad;
-import static com.jsoneutral.file.util.StringDataUtil.removeDiacritics;
-import static com.jsoneutral.file.util.StringDataUtil.rightPad;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.formatDate;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.leftPad;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.removeDiacritics;
+import static com.axsoftware.jsoneutral.file.util.StringDataUtil.rightPad;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -19,12 +19,12 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.UUID;
 
-import com.jsoneutral.file.AbstractFileProcessor;
-import com.jsoneutral.file.DataRecord;
-import com.jsoneutral.file.JsonMetadata;
-import com.jsoneutral.file.exception.FileJsonException;
-import com.jsoneutral.file.exception.FileJsonException.Type;
-import com.jsoneutral.file.util.ReflectionUtil;
+import com.axsoftware.jsoneutral.file.AbstractFileProcessor;
+import com.axsoftware.jsoneutral.file.DataRecord;
+import com.axsoftware.jsoneutral.file.JsonMetadata;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException.Type;
+import com.axsoftware.jsoneutral.file.util.ReflectionUtil;
 
 
 public class FileJsonWriterImpl extends AbstractFileProcessor implements FileJsonWriter {

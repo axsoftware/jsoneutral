@@ -1,5 +1,5 @@
 
-package com.jsoneutral.file.writer;
+package com.axsoftware.jsoneutral.file.writer;
 
 import java.io.File;
 import java.util.Collection;

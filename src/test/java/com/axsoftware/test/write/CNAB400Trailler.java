@@ -1,4 +1,4 @@
-package com.fileJson.test.write;
+package com.axsoftware.test.write;
 
 public class CNAB400Trailler {
 

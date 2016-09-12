@@ -1,4 +1,4 @@
-package com.fileJson.test.reader;
+package com.axsoftware.test.reader;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,11 +8,11 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.jsoneutral.file.JsonDataLine;
-import com.jsoneutral.file.JsonTextFile;
-import com.jsoneutral.file.reader.FileJsonReader;
-import com.jsoneutral.file.reader.FileJsonReaderImpl;
-import com.jsoneutral.file.reader.FileJsonReaderProcessor;
+import com.axsoftware.jsoneutral.file.JsonDataLine;
+import com.axsoftware.jsoneutral.file.JsonTextFile;
+import com.axsoftware.jsoneutral.file.reader.FileJsonReader;
+import com.axsoftware.jsoneutral.file.reader.FileJsonReaderImpl;
+import com.axsoftware.jsoneutral.file.reader.FileJsonReaderProcessor;
 
 public class ReaderFileTest {
 
