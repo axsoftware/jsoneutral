@@ -1,4 +1,4 @@
-package com.jsoneutral.file;
+package com.axsoftware.jsoneutral.file;
 
 public class JsonMetadata implements Comparable<JsonMetadata> {
 

@@ -1,4 +1,4 @@
-package com.jsoneutral.file.reader;
+package com.axsoftware.jsoneutral.file.reader;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,11 +6,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Map;
 
-import com.jsoneutral.file.AbstractFileProcessor;
-import com.jsoneutral.file.DataRecord;
-import com.jsoneutral.file.JsonTextFile;
-import com.jsoneutral.file.exception.FileJsonException;
-import com.jsoneutral.file.exception.FileJsonException.Type;
+import com.axsoftware.jsoneutral.file.AbstractFileProcessor;
+import com.axsoftware.jsoneutral.file.DataRecord;
+import com.axsoftware.jsoneutral.file.JsonTextFile;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException.Type;
 
 
 public class FileJsonReaderImpl extends AbstractFileProcessor implements FileJsonReader {

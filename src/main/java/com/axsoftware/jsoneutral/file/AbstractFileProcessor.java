@@ -1,4 +1,4 @@
-package com.jsoneutral.file;
+package com.axsoftware.jsoneutral.file;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,10 +11,10 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.axsoftware.jsoneutral.file.exception.FileJsonException;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException.Type;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.jsoneutral.file.exception.FileJsonException;
-import com.jsoneutral.file.exception.FileJsonException.Type;
 
 public abstract class AbstractFileProcessor {
 

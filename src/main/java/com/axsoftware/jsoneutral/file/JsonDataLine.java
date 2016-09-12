@@ -1,11 +1,11 @@
-package com.jsoneutral.file;
+package com.axsoftware.jsoneutral.file;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.jsoneutral.file.exception.FileJsonException;
-import com.jsoneutral.file.exception.FileJsonException.Type;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException;
+import com.axsoftware.jsoneutral.file.exception.FileJsonException.Type;
 
 
 public class JsonDataLine {
