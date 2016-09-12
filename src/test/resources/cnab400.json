@@ -1,0 +1,266 @@
+[
+	{
+	"id": "HEADER",	
+	"lengthForWrite": 400,
+	"fragmentsMetadata": [
+		{
+			"start"	: "1",
+			"end"	: "9",
+			"key"	: "recordType"
+		},			
+		{
+			"start"	: "27",
+			"end"	: "39",
+			"key"	: "code"
+		},		
+		{
+			"start"	: "47",
+			"end"	: "76",
+			"key"	: "name"
+		},		
+		{
+			"start"	: "77",
+			"end"	: "87",
+			"key"	: "bankCode"
+		},		
+		{
+			"start"	: "95",
+			"end"	: "100",
+			"key"	: "dateFileStore"
+		},		
+		{
+			"start"	: "110",
+			"end"	: "113",
+			"key"	: "serviceCode"
+		},		
+		{
+			"start"	: "115",
+			"end"	: "115",
+			"key"	: "processType"
+		},		
+		{
+			"start"	: "117",
+			"end"	: "126",
+			"key"	: "officeBankCode"
+		},	
+		{
+			"start"	: "395",
+			"end"	: "400",
+			"key"	: "sequenceRecord"
+		}	
+	]},
+	
+	{
+	"id": "TRANSACTION",	
+	"lengthForWrite": 400,
+	"fragmentsMetadata": [
+		{
+			"start"	: "1",
+			"end"	: "1",
+			"key"	: "recordType"
+		},		
+		{
+			"start"	: "18",
+			"end"	: "30",
+			"key"	: "code"
+		},		
+		{
+			"start"	: "38",
+			"end"	: "62",
+			"key"	: "idDocument"
+		},		
+		{
+			"start"	: "63",
+			"end"	: "72",
+			"key"	: "ourNumber"
+		},		
+		{
+			"start"	: "73",
+			"end"	: "104",
+			"key"	: "message"
+		},		
+		{
+			"start"	: "108",
+			"end"	: "108",
+			"key"	: "walletType"
+		},		
+		{
+			"start"	: "109",
+			"end"	: "110",
+			"key"	: "occurrenceCode"
+		},		
+		{
+			"start"	: "111",
+			"end"	: "120",
+			"key"	: "yourNumber"
+		},		
+		{
+			"start"	: "121",
+			"end"	: "126",
+			"key"	: "expireDate"
+		},		
+		{
+			"start"	: "127",
+			"end"	: "139",
+			"key"	: "documentValue"
+		},		
+		{
+			"start"	: "140",
+			"end"	: "142",
+			"key"	: "codeCollectorBank"
+		},		
+		{
+			"start"	: "148",
+			"end"	: "149",
+			"key"	: "documentType"
+		},		
+		{
+			"start"	: "150",
+			"end"	: "150",
+			"key"	: "acceptCode"
+		},		
+		{
+			"start"	: "151",
+			"end"	: "156",
+			"key"	: "dateRecord"
+		},		
+		{
+			"start"	: "157",
+			"end"	: "158",
+			"key"	: "inst1Code"
+		},		
+		{
+			"start"	: "159",
+			"end"	: "160",
+			"key"	: "inst2Code"
+		},		
+		{
+			"start"	: "161",
+			"end"	: "161",
+			"key"	: "moraCode"
+		},		
+		{
+			"start"	: "162",
+			"end"	: "173",
+			"key"	: "tax"
+		},		
+		{
+			"start"	: "174",
+			"end"	: "179",
+			"key"	: "dateDiscount"
+		},		
+		{
+			"start"	: "180",
+			"end"	: "192",
+			"key"	: "discountValue"
+		},		
+		{
+			"start"	: "193",
+			"end"	: "197",
+			"key"	: "xTaxPay"
+		},		
+		{
+			"start"	: "198",
+			"end"	: "199",
+			"key"	: "xiof"
+		},		
+		{
+			"start"	: "200",
+			"end"	: "205",
+			"key"	: "xzeros"
+		},		
+		{
+			"start"	: "206",
+			"end"	: "218",
+			"key"	: "reductionValue"
+		},		
+		{
+			"start"	: "219",
+			"end"	: "220",
+			"key"	: "inscType"
+		},		
+		{
+			"start"	: "221",
+			"end"	: "234",
+			"key"	: "inscNumber"
+		},		
+		{
+			"start"	: "235",
+			"end"	: "269",
+			"key"	: "payerName"
+		},		
+		{
+			"start"	: "275",
+			"end"	: "314",
+			"key"	: "payerAddress"
+		},		
+		{
+			"start"	: "322",
+			"end"	: "324",
+			"key"	: "taxNote"
+		},		
+		{
+			"start"	: "325",
+			"end"	: "326",
+			"key"	: "daysAfterNote"
+		},		
+		{
+			"start"	: "327",
+			"end"	: "334",
+			"key"	: "postCode"
+		},		
+		{
+			"start"	: "335",
+			"end"	: "349",
+			"key"	: "cityPayer"
+		},		
+		{
+			"start"	: "350",
+			"end"	: "351",
+			"key"	: "uf"
+		},		
+		{
+			"start"	: "352",
+			"end"	: "355",
+			"key"	: "earlyDayTax"
+		},		
+		{
+			"start"	: "358",
+			"end"	: "369",
+			"key"	: "discountCalcValue"
+		},		
+		{
+			"start"	: "370",
+			"end"	: "371",
+			"key"	: "protestDays"
+		},		
+		{
+			"start"	: "395",
+			"end"	: "400",
+			"key"	: "sequenceRecord"
+		}		
+		
+	]},
+	
+	{ 
+	"id": "TRAILLER",	
+	"lengthForWrite": 400,
+	"fragmentsMetadata": [
+		{
+			"start"	: "1",
+			"end"	: "1",
+			"key"	: "recordType"
+		},		
+		{
+			"start"	: "28",
+			"end"	: "40",
+			"key"	: "total"
+		},		
+		{
+			"start"	: "395",
+			"end"	: "400",
+			"key"	: "sequenceRecord"
+		}
+		
+	]}
+]

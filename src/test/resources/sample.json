@@ -1,0 +1,17 @@
+[
+	{ 
+		"id": "CUSTOMER",	
+		"fragmentsMetadata": [
+			{
+				"start"	: "1",
+				"end"	: "20",
+				"key"	: "name"
+			},
+			{
+				"start"	: "21",
+				"end"	: "40",
+				"key"	: "email"
+			}	
+		]
+	}
+]
