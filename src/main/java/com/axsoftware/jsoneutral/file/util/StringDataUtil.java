@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class StringDataUtil {
 
 	private static final String DD_MM_YY 		= "ddMMyy";
-	private static final String RX_VALID_TEXT 	= "[^a-zA-Z0-9,\\-\\s+]";
+	private static final String RX_VALID_TEXT 	= "[^a-zA-Z0-9,_\\.\\-\\s+]";
 	private static final String RX_DIACRITICS 	= "\\p{InCombiningDiacriticalMarks}+";
 
 	private static String pad(String s, int n, String fill, boolean right) {
