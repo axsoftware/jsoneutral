@@ -8,52 +8,52 @@ import java.util.regex.Pattern;
 
 public class StringDataUtil {
 
-	private static final String DD_MM_YY 		= "ddMMyy";
-	private static final String RX_VALID_TEXT 	= "[^a-zA-Z0-9,_\\.\\-\\s+]";
-	private static final String RX_DIACRITICS 	= "\\p{InCombiningDiacriticalMarks}+";
+	private static final String DD_MM_YY = "ddMMyy";
+	private static final String RX_VALID_TEXT = "[^a-zA-Z0-9,@_\\.\\-\\s+]";
+	private static final String RX_DIACRITICS = "\\p{InCombiningDiacriticalMarks}+";
 
-	private static String pad(String s, int n, String fill, boolean right) {
+	private static String pad(final String s, final int n, final String fill, final boolean right) {
 		final String pad = right ? "%-" : "%";
 		String rpl = String.format(pad + n + "s", s);
-		if(fill != null){
+		if (fill != null) {
 			rpl = rpl.replace(" ", fill);
 		}
 		return rpl;
 	}
 
-	public static String rightPad(String s, int n) {
+	public static String rightPad(final String s, final int n) {
 		return rightPad(s, n, null);
 	}
-	
-	public static String rightPad(String s, int n, String fill) {
+
+	public static String rightPad(final String s, final int n, final String fill) {
 		return pad(s, n, fill, true);
 	}
-	
-	public static String leftPad(String s, int n, String fill) {
+
+	public static String leftPad(final String s, final int n, final String fill) {
 		return pad(s, n, fill, false);
-	}	
-	
-	public static String formatDate(final Date dateInput, final String format){
+	}
+
+	public static String formatDate(final Date dateInput, final String format) {
 		return new SimpleDateFormat(format).format(dateInput);
 	}
-	
-	public static String formatDate(final Date dateInput){
+
+	public static String formatDate(final Date dateInput) {
 		return formatDate(dateInput, DD_MM_YY);
 	}
-	
-	public static String formatDate(){
+
+	public static String formatDate() {
 		return formatDate(new Date(), DD_MM_YY);
 	}
-	
-	public static String formatDecimal(String value){
+
+	public static String formatDecimal(final String value) {
 		return String.format("%01.0f", new BigDecimal(value).doubleValue() * 100);
 	}
 
-	public static String removeDiacritics(String str) {
-	    final String normalize = Normalizer.normalize(str, Normalizer.Form.NFD); 
-	    final Pattern pattern = Pattern.compile(RX_DIACRITICS);
-	    String text = pattern.matcher(normalize).replaceAll("");
-	    text = text.replaceAll(RX_VALID_TEXT, ""); 
-	    return text.toUpperCase();
+	public static String removeDiacritics(final String str) {
+		final String normalize = Normalizer.normalize(str, Normalizer.Form.NFD);
+		final Pattern pattern = Pattern.compile(RX_DIACRITICS);
+		String text = pattern.matcher(normalize).replaceAll("");
+		text = text.replaceAll(RX_VALID_TEXT, "");
+		return text.toUpperCase();
 	}
 }
