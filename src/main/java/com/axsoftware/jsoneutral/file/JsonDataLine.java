@@ -58,7 +58,7 @@ public class JsonDataLine {
 			try {
 				final Field field = ReflectionUtil.findField(instance.getClass(), fragmentMetadata.getKey());
 				field.setAccessible(true);
-				field.set(instance, fieldValue.trim());
+				field.set(instance, fieldValue);
 				
 			} catch (SecurityException | IllegalArgumentException | IllegalAccessException e) {
 				throw new FileJsonException(Type.FILE_ERROR_SET_DATA_VALUE);
