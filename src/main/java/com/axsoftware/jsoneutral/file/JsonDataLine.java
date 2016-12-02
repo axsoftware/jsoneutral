@@ -6,6 +6,7 @@ import java.util.Map;
 
 import com.axsoftware.jsoneutral.file.exception.FileJsonException;
 import com.axsoftware.jsoneutral.file.exception.FileJsonException.Type;
+import com.axsoftware.jsoneutral.file.util.ReflectionUtil;
 
 
 public class JsonDataLine {
@@ -55,11 +56,11 @@ public class JsonDataLine {
 			}
 			
 			try {
-				final Field field = instance.getClass().getDeclaredField(fragmentMetadata.getKey());
+				final Field field = ReflectionUtil.findField(instance.getClass(), fragmentMetadata.getKey());
 				field.setAccessible(true);
 				field.set(instance, fieldValue.trim());
 				
-			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
+			} catch (SecurityException | IllegalArgumentException | IllegalAccessException e) {
 				throw new FileJsonException(Type.FILE_ERROR_SET_DATA_VALUE);
 			}
 
